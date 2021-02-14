@@ -1,7 +1,8 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Gilroy ExtraBold Italic'), local('Gilroy-ExtraBoldItalic'),
-    url('Gilroy-ExtraBoldItalic.ttf') format('truetype');
-  font-weight: 800;
-  font-style: italic;
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.woff2') format('woff2'),
+        url('Gilroy-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
 }
